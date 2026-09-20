@@ -3,78 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Park Picnic Packs - Conrad's Maths Mission</title>
+  <title>Carissa: Trigonometry Practice</title>
   <style>
-    @page { size: A4; margin: 15mm; }
+    @page { size: A4; margin: 14mm; }
     * { box-sizing: border-box; }
-    body { margin: 0; color: #000; background: #ececec; font: 15pt/1.35 Arial, sans-serif; }
-    .page { width: 210mm; min-height: 297mm; margin: 10mm auto; padding: 15mm; background: #fff; }
-    h1 { margin: 0; font-size: 25pt; }
-    h2 { margin: 20px 0 10px; font-size: 18pt; border-bottom: 2px solid #000; }
-    p { margin: 8px 0; }
-    .meta { margin: 15px 0 20px; font-size: 13pt; }
-    .question { margin: 18px 0; break-inside: avoid; }
-    .question p { margin: 0 0 8px; }
-    .number { display: inline-block; width: 35px; font-weight: bold; }
-    .answer { display: inline-block; min-width: 125px; height: 26px; border-bottom: 1.5px solid #000; vertical-align: bottom; }
-    .working { min-height: 65px; margin: 9px 0 0 35px; border: 1px solid #777; background: repeating-linear-gradient(to bottom, transparent 0, transparent 25px, #ddd 26px); }
-    .short-working { min-height: 42px; }
-    .boxes { display: inline-flex; vertical-align: middle; margin: 4px 0; }
-    .box { width: 30px; height: 30px; border: 2px solid #000; }
-    .shaded { background: #000; }
-    .shade-grid { width: 250px; height: 80px; display: grid; grid-template-columns: repeat(var(--parts), 1fr); border: 2px solid #000; }
-    .shade-grid span + span { border-left: 1px solid #000; }
-    .note { font-size: 13pt; }
-    @media print {
-      body { background: #fff; }
-      .page { width: auto; min-height: 0; margin: 0; padding: 0; page-break-after: always; }
-      .page:last-child { page-break-after: auto; }
-    }
-    @media screen and (max-width: 760px) {
-      .page { width: 100%; min-height: 0; margin: 0; padding: 20px; }
-    }
+    body { color: #111; font: 11pt/1.4 Arial, sans-serif; }
+    main { max-width: 180mm; margin: auto; }
+    h1 { margin: 0; font-size: 22pt; }
+    h2 { margin: 20px 0 8px; font-size: 14pt; border-bottom: 1px solid #111; }
+    p { margin: 6px 0; }
+    .meta { margin: 10px 0 18px; border-top: 1px solid #111; border-bottom: 1px solid #111; padding: 8px 0; }
+    .question { break-inside: avoid; margin: 16px 0; }
+    .question p { font-weight: 700; }
+    .space { min-height: 44px; border-bottom: 1px dotted #999; }
+    .space.large { min-height: 80px; }
+    .new-page { break-before: page; }
+    @media print { .new-page { break-before: page; } }
   </style>
 </head>
 <body>
-  <section class="page">
-    <h1>Maths Mission: Park Picnic Packs</h1>
-    <p class="meta">Name: ________________________________ &nbsp;&nbsp; Date: __________________</p>
-    <p>Pack fair picnic supplies. Take your time and show your working when asked.</p>
-
-    <h2>Warm-up</h2>
-    <div class="question"><p><span class="number">1.</span>58 - 30 = <span class="answer"></span></p></div>
-    <div class="question"><p><span class="number">2.</span>74 - 38 = <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">3.</span>Complete the fact: 6 x <span class="answer"></span> = 42, so 42 / 6 = <span class="answer"></span></p></div>
-    <div class="question">
-      <p><span class="number">4.</span>Draw one line to split this rectangle into 2 <strong>equal</strong> parts. Then shade one half.</p>
-      <div class="shade-grid" style="--parts: 1"><span></span></div>
-    </div>
-
-    <h2>Focus Questions</h2>
-    <div class="question"><p><span class="number">5.</span>Solve carefully: 83 - 47 = <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">6.</span><span class="answer"></span> - 26 = 48</p><p class="note">What number goes in the box?</p></div>
-  </section>
-
-  <section class="page">
-    <h1>Park Picnic Packs</h1>
-    <h2>Focus Questions</h2>
-    <div class="question"><p><span class="number">7.</span>36 apples are shared equally among 4 picnic tables. How many apples does each table get?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">8.</span>Split this rectangle into 4 <strong>equal</strong> parts. Shade 1 part, then write the fraction you shaded.</p><div class="shade-grid" style="--parts: 1"><span></span></div><p>Fraction: <span class="answer"></span></p></div>
-    <div class="question"><p><span class="number">9.</span>90 - 56 = <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">10.</span>There are 45 juice boxes. Put 5 juice boxes in each crate. How many full crates can be packed?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">11.</span>A sandwich is cut into 4 <strong>equal</strong> pieces. Conrad eats 2 pieces. What fraction of the sandwich does he eat?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
-  </section>
-
-  <section class="page">
-    <h1>Park Picnic Packs</h1>
-    <h2>Word Problems</h2>
-    <div class="question"><p><span class="number">12.</span>The picnic starts with 82 napkins. 39 napkins are used. How many napkins are left? Show your working.</p><p>Answer: <span class="answer"></span></p><div class="working"></div></div>
-    <div class="question"><p><span class="number">13.</span>24 biscuits are shared equally among 3 families. How many biscuits does each family get? Write a multiplication fact that helps.</p><p>Answer: <span class="answer"></span></p><div class="working"></div></div>
-
-    <h2>Thinking Challenges</h2>
-    <div class="question"><p><span class="number">14.</span>A picnic tub has 62 strawberries: 6 tens and 2 ones. Pack 27 strawberries: 2 tens and 7 ones.</p><p>You cannot pack 7 ones when there are only 2 ones. What exchange can you make? Write or draw the new tens and ones, then find how many strawberries are left.</p><div class="working"></div></div>
-    <div class="question"><p><span class="number">15.</span>Which is more of the same pizza: 1/2 or 1/4? Explain or draw a picture.</p><div class="working"></div></div>
-    <div class="question"><p><span class="number">16.</span><strong>Bonus subtraction challenge:</strong> Solve carefully: 352 - 78 = <span class="answer"></span></p><div class="working short-working"></div></div>
-  </section>
+  <main>
+    <h1>Trigonometry: Different Ways In</h1>
+    <div class="meta">Name: ________________________________ &nbsp;&nbsp; Date: __________________<br>Calculator permitted unless stated otherwise. Show a labelled sketch whenever it helps. Include units and requested rounding.</div>
+    <h2>Warm-up and Core Skills</h2>
+    <section class="question"><p>1. In a right-angled triangle, sin theta = 5/13 and 0 degrees &lt; theta &lt; 90 degrees. Find theta to the nearest degree.</p><div class="space"></div></section>
+    <section class="question"><p>2. Without a calculator, find the exact value of tan 45 degrees + sin 30 degrees.</p><div class="space"></div></section>
+    <section class="question"><p>3. Triangle ABC has vertices A(0, 0), B(18, 0), and C(18, 12). It is right-angled at B. Find angle BAC to the nearest degree.</p><div class="space"></div></section>
+    <section class="question"><p>4. A 4.8 m access ramp rises 0.72 m vertically. Find the angle the ramp makes with the ground, to the nearest tenth of a degree.</p><div class="space"></div></section>
+    <section class="question"><p>5. A kite string is taut and makes an angle of 58 degrees with level ground. The person holding it is 32 m horizontally from the point directly below the kite. Ignore the holder's height. How high is the kite above the ground, to the nearest metre?</p><div class="space"></div></section>
+    <section class="question"><p>6. A 7.5 m support cable runs from the top of a vertical radio mast to a ground anchor. The cable makes an angle of 62 degrees with the ground. Find the height of the mast to the nearest tenth of a metre.</p><div class="space"></div></section>
+    <section class="question"><p>7. On a scale drawing, a right triangle has a horizontal side of 6.4 cm and an angle of 37 degrees between this side and the hypotenuse. The real horizontal side is 160 m. Find the real vertical height, to the nearest metre.</p><div class="space"></div></section>
+    <section class="question"><p>8. Two points on level ground are 24 m apart. From the nearer point, the angle of elevation to the top of a statue is 41 degrees. From the farther point, it is 29 degrees. Explain which angle should be used to find the statue's height if the nearer point is used, then find that height to the nearest metre.</p><div class="space large"></div></section>
+    <section class="question"><p>9. A solar panel is 1.7 m long. To meet its mounting specification, its top edge must be 0.95 m above its bottom edge. Find the panel's angle to the horizontal, to the nearest degree.</p><div class="space"></div></section>
+    <div class="new-page"></div>
+    <h2>Reasoning and Challenge</h2>
+    <section class="question"><p>10. A student writes cos 38 degrees = h/12 to find the height h of a vertical sign. The 12 m measurement is along the ground from the observer to the base of the sign, and the angle of elevation is 38 degrees.</p><p>Is the student's equation correct? If not, write a correct equation and find h to the nearest tenth of a metre.</p><div class="space large"></div></section>
+    <section class="question"><p>11. An isosceles triangular window has two equal sides of 2.6 m and a base of 3.0 m. Draw the altitude from the top vertex. Use trigonometry to find the angle at the top vertex, to the nearest degree.</p><div class="space large"></div></section>
+    <section class="question"><p>12. Challenge: A weather balloon is directly above a point on level ground. From point P, the angle of elevation is 28 degrees. After walking 45 m straight towards the point below the balloon to point Q, the angle of elevation is 46 degrees.</p><p>Let x be the horizontal distance from Q to the point below the balloon. Set up two equations involving x and the balloon height, then find the height to the nearest metre.</p><div class="space large"></div></section>
+  </main>
 </body>
 </html>
