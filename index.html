@@ -22,6 +22,8 @@
     .boxes { display: inline-flex; vertical-align: middle; margin: 4px 0; }
     .box { width: 30px; height: 30px; border: 2px solid #000; }
     .shaded { background: #000; }
+    .shade-grid { width: 250px; height: 80px; display: grid; grid-template-columns: repeat(var(--parts), 1fr); border: 2px solid #000; }
+    .shade-grid span + span { border-left: 1px solid #000; }
     .note { font-size: 13pt; }
     @media print {
       body { background: #fff; }
@@ -44,9 +46,8 @@
     <div class="question"><p><span class="number">2.</span>74 - 38 = <span class="answer"></span></p><div class="working short-working"></div></div>
     <div class="question"><p><span class="number">3.</span>Complete the fact: 6 x <span class="answer"></span> = 42, so 42 / 6 = <span class="answer"></span></p></div>
     <div class="question">
-      <p><span class="number">4.</span>Which picture shows <strong>one half</strong>? Circle A or B.</p>
-      <p>A. <span class="boxes"><span class="box shaded"></span><span class="box"></span></span></p>
-      <p>B. <span class="boxes"><span class="box shaded"></span><span class="box"></span><span class="box"></span><span class="box"></span></span></p>
+      <p><span class="number">4.</span>Draw one line to split this rectangle into 2 <strong>equal</strong> parts. Then shade one half.</p>
+      <div class="shade-grid" style="--parts: 1"><span></span></div>
     </div>
 
     <h2>Focus Questions</h2>
@@ -58,7 +59,7 @@
     <h1>Park Picnic Packs</h1>
     <h2>Focus Questions</h2>
     <div class="question"><p><span class="number">7.</span>36 apples are shared equally among 4 picnic tables. How many apples does each table get?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
-    <div class="question"><p><span class="number">8.</span>Write the fraction for 1 shaded part out of 4 equal parts:</p><p><span class="boxes"><span class="box shaded"></span><span class="box"></span><span class="box"></span><span class="box"></span></span></p><p>Fraction: <span class="answer"></span></p></div>
+    <div class="question"><p><span class="number">8.</span>Split this rectangle into 4 <strong>equal</strong> parts. Shade 1 part, then write the fraction you shaded.</p><div class="shade-grid" style="--parts: 1"><span></span></div><p>Fraction: <span class="answer"></span></p></div>
     <div class="question"><p><span class="number">9.</span>90 - 56 = <span class="answer"></span></p><div class="working short-working"></div></div>
     <div class="question"><p><span class="number">10.</span>There are 45 juice boxes. Put 5 juice boxes in each crate. How many full crates can be packed?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
     <div class="question"><p><span class="number">11.</span>A sandwich is cut into 4 <strong>equal</strong> pieces. Conrad eats 2 pieces. What fraction of the sandwich does he eat?</p><p>Answer: <span class="answer"></span></p><div class="working short-working"></div></div>
@@ -71,7 +72,7 @@
     <div class="question"><p><span class="number">13.</span>24 biscuits are shared equally among 3 families. How many biscuits does each family get? Write a multiplication fact that helps.</p><p>Answer: <span class="answer"></span></p><div class="working"></div></div>
 
     <h2>Thinking Challenges</h2>
-    <div class="question"><p><span class="number">14.</span>Jia says, “62 - 27 = 45 because 7 - 2 = 5 and 6 - 2 = 4.”</p><p>Is Jia correct? Explain what needs to happen to the tens and ones.</p><div class="working"></div></div>
+    <div class="question"><p><span class="number">14.</span>A picnic tub has 62 strawberries: 6 tens and 2 ones. Pack 27 strawberries: 2 tens and 7 ones.</p><p>You cannot pack 7 ones when there are only 2 ones. What exchange can you make? Write or draw the new tens and ones, then find how many strawberries are left.</p><div class="working"></div></div>
     <div class="question"><p><span class="number">15.</span>Which is more of the same pizza: 1/2 or 1/4? Explain or draw a picture.</p><div class="working"></div></div>
     <div class="question"><p><span class="number">16.</span><strong>Bonus subtraction challenge:</strong> Solve carefully: 352 - 78 = <span class="answer"></span></p><div class="working short-working"></div></div>
   </section>
